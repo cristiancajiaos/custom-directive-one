@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Layout } from './components/layout/layout';
+import { Highlight } from './directives/highlight';
 
 @NgModule({
   declarations: [
     App,
-    Layout
+    Layout,
+    Highlight
   ],
   imports: [
     BrowserModule,
