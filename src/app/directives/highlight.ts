@@ -9,7 +9,7 @@ export class Highlight {
   @Input() highlightColor: string = '';
 
   constructor(private el: ElementRef) {
-    console.log('Inside the custom directive');
+    console.log('Inside highlight directive');
   }
 
   @HostListener('mouseenter') onMouseEnter() {
